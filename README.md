@@ -29,6 +29,10 @@ Download the 5 ONNX files from those 2 links and place them in the `Assets/Model
 
 In the Main scene, assign those models to the serialized fields of the Stem Splitter object (the base model goes into the "Model Asset" field and the 4 fine tuned models go into the fine tuned specialist model fields)
 
+## Video Example
+
+[![Video Title](https://img.youtube.com/vi/749FNU9pd6w/0.jpg)](https://www.youtube.com/watch?v=749FNU9pd6w)
+
 ## Authors
 
 Devon O. Wolfgang
