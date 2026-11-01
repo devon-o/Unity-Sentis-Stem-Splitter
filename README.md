@@ -17,6 +17,8 @@ This is a Unity 3D project to create a Windows 64-bit app that will
 
 Once built, simply drag and drop a .mp3 file as described above into the app window. Let it process (I recommend short clips rather than full songs to begin - maybe 15-20 seconds long). When done, the BPM will be displayed along with a button to export the stems. If you choose to do so it will export 4 .wav files (for drums, vocals, bass, and other) to the folder you specify.
 
+To test in the Unity Editor, assign an AudioClip to the TestAudio serialized field of the 'Main' game object in the main scene and just enter playmode. After processing and hitting the Export Stems button, the stem wav files will be saved in `Assets/Stems`.
+
 ### Dependencies
 
 This repo does not include the required models. They can be downloaded from HuggingFace:

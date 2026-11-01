@@ -68,6 +68,9 @@ ExportedObj/
 *.ONNX
 *.onnx
 
+# Editor Output
+/[Aa]ssets/[Ss]tems
+
 # Unity3D generated file on crash reports
 sysinfo.txt
 
