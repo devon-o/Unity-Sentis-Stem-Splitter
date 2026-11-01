@@ -39,6 +39,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Acknowledgments
 
+* [StemSplit (the company behind the AI models that make this possible)](https://huggingface.co/StemSplitio)
 * [Markus Göbel (fantastic drag/drop win hook)](https://github.com/Bunny83/UnityWindowsFileDrag-Drop/blob/master/B83.Win32.cs)
 * [josuahoenger (native win folder picker)](https://discussions.unity.com/t/native-folder-picker-under-windows/1624972)
 * [darktable (nice .wav export script)](https://gist.github.com/darktable/2317063)
