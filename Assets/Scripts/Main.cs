@@ -26,26 +26,23 @@ public class Main : MonoBehaviour
     private float[] drums;
     private float[] other;
 
-#if UNITY_EDITOR
+
 
     private void Start()
-    {
-        if (testAudio != null)
-        {
-            HandleMp3Loaded(testAudio);
-        }
-    }
-
-#endif
-
-    private void OnEnable()
     {
         HandleBeginAgainClick();
         exportButton.onClick.AddListener(HandleExportClick);
         beginAgainButton.onClick.AddListener(HandleBeginAgainClick);
+
+#if UNITY_EDITOR
+        if (testAudio != null)
+        {
+            HandleMp3Loaded(testAudio);
+        }
+#endif
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
         exportButton.onClick.RemoveListener(HandleExportClick);
         beginAgainButton.onClick.RemoveListener(HandleBeginAgainClick);
